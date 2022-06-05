@@ -2,7 +2,7 @@ node {
 
     stage("Git Clone"){
 
-        git credentialsId: 'BITBUCKET_CREDENTIAL', url: 'https://sachindhiman85@bitbucket.org/sachindhiman85/into-to-xtream.git'
+        git credentialsId: 'BITBUCKET_PASS', url: 'https://sachindhiman85@bitbucket.org/sachindhiman85/into-to-xtream.git'
     }
 
      stage('Maven Build') {
