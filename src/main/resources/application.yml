@@ -1,0 +1,7 @@
+spring.application.name: xtream-style
+
+management:
+  endpoint.web.exposure.include: '*'
+  endpoint:
+    health:
+      show-details: always
