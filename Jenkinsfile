@@ -1,6 +1,6 @@
 node {
 
-    stage("Git Clone"){
+    stage("Git Clone.."){
 
         git credentialsId: 'BITBUCKET_PASS', url: 'https://sachindhiman85@bitbucket.org/sachindhiman85/into-to-xtream.git'
     }
